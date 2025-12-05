@@ -1,0 +1,35 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color-primary: #f6f6f6;
+  --color-secondary: #2d2d2d;
+  --color-accent: #fcab44;
+
+  --screen-md: 720px;
+}
+
+body {
+  font-family: "Nunito Sans", cursive;
+  font-weight: 400;
+  line-height: 1.5;
+  background: var(--color-primary) url("https://dble.bn-ent.net/shared/img/bg.webp") top / cover no-repeat fixed;
+
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+  }
+}
+
+section {
+  max-height: min(100svh, 700px);
+  overflow: visible;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
